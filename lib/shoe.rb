@@ -8,6 +8,10 @@ class Shoe
     @brand = brand
     BRANDS.each do |name|
       if (name == brand)
+        return nil 
+      end 
+    end 
+    BRANDS << brand 
   end
 
   def cobble
