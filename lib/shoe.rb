@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS.each do |name|
-      if 
+      if (name == brand)
   end
 
   def cobble
